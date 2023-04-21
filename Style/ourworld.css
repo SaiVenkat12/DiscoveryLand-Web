@@ -39,9 +39,11 @@ body {
 
 .menu {
     display: flex;
+    align-items: center;
     gap: 30px;
     font-size: 18px;
-    align-items: center;
+    font-family: sans-serif;
+    
 }
 
 .locations {
@@ -124,12 +126,12 @@ span {
     }
 
     .title2 {
-        font-size: 15px;
+        font-size: 12px;
         letter-spacing: 1px;
     }
     .menu {
         gap: 10px;
-        font-size: 15px;
+        font-size: 12px;
     }
 }
 @media only screen and (max-width: 500px) {
