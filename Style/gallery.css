@@ -1,161 +1,141 @@
-#img0 {
-    top: 0px;
-    left: 0px;
-    width: -webkit-fill-available;
-    height: -webkit-fill-available;
-    position: absolute;
+body{
+    margin: 0%;
+    background-color: black;
 }
 
-.title1 {
-    top: 45px;
-    left: 81px;
-    position: absolute;
-    color: aliceblue;
-    font-size: 36px;
-}
-
-.title2 {
-    top: 13px;
-    left: 87px;
-    color: azure;
-    position: absolute;
-    padding-top: 64px;
-    letter-spacing: 1px;
-    font-size: 18px;
-    text-transform: capitalize;
-}
-
-.title3 {
-    top: 290px;
-    left: 115px;
-    color: whitesmoke;
-    font-size: 75px;
-    position: absolute;
-}
-
-.menu {
-    top: 58px;
-    right: 20%;
+.main {
+    margin-top: 5%;
     display: flex;
-    gap: 30px;
-    font-size: 16px;
-    position: absolute;
+    width: 100%;
+    justify-content: space-around;
+    color: aliceblue;
+    position:absolute;
+    z-index: 10;
+}
+
+#logo {
+    width: 44px;
+    height: auto;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.main-title {
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+}
+
+.logo {
+    display: flex;
     align-items: center;
 }
 
-.menuitems, .contact-items {
+.title1 {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.title2 {
+    padding-left: 3px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.menuitems {
+    color:aliceblue;
+}
+.main-img{
+    display: flex;
+}
+
+#img0 {
+    width: 100%;
+    height: 75%;
+    display: flex;
+}
+.page-title{
+    padding-top: 23%;
+    padding-left: 28%;
+    display: flex;
     color: aliceblue;
+    font-size: 58px;
+    letter-spacing: 2px;
+    position: absolute;
+}
+
+.locations {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .locations-Img {
-
-    left: 0px;
-    right: 0px;
-    display: flex;
-    position: absolute;
-}
-
-#location-imgs1 {
-    top: 576px;
-}
-
-#location-imgs2 {
-    top: 926px;
-}
-
-img {
     width: 33.3%;
+    display: flex;
+    flex-direction: column;
+}
+img {
     height: 250px;
 }
 
-.location-titles {
-
-    left: 0px;
-    right: 0px;
+.location {
+    font-size: 27px;
     height: 100px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font: 20px sans-serif;
-    color: white;
-    background-color: black;
-    position: absolute;
-}
-
-#locationName1 {
-    top: 826px;
-}
-
-#locationName2 {
-    top: 1176px;
-}
-
-.location {
-    width: 33.3%;
-    display: flex;
+    color: aliceblue;
     align-items: center;
     justify-content: center;
 }
 
+
 .end {
-    top: 1276px;
-    left: 0px;
-    right: 0px;
-    height: 400px;
-    background-color: rgb(7, 9, 9);
-    position: absolute;
-
-}
-.end-details{
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 5%;
     display: flex;
-    gap: 260px;
-    font-size: 16px;
-    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: rgb(7, 9, 9);
 }
 
-span{
+.end-details {
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+span {
     text-transform: capitalize;
     color: antiquewhite;
 }
-.contact{
+
+.end-menu {
+    display: flex;
+    gap: 90px;
+}
+
+.end-info {
     display: flex;
     flex-direction: column;
     gap: 15px;
     font-size: 16px;
-    align-content: flex-end;
-    align-items: flex-start;
-    flex-wrap: wrap;
 }
-.end-menu{
-    display: flex;
-    gap: 71px;
-}
-.end-info{
-    display: flex;
-    right: 10px;
-    top: 53px;
-    flex-direction: column;
-    /* position: absolute; */
-    gap: 15px;
-    font-size: 16px;
-    align-content: flex-end;
-    align-items: flex-start;
-    flex-wrap: wrap;
-}
-.end-title{
-    display: flex;
-    color: aliceblue;
-    font-size: 36px;
-}
-.end-space{
-    height: 59px;
-    position: sticky;
+
+#end-logo {
+    width: auto;
+    background-color: white;
 }
 
 .end-rights {
-    top: 280px;
-    left: 13%;
+    padding-top: 30px;
     font-size: 15px;
     color: seashell;
-    position: absolute;
 }

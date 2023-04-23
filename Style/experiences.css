@@ -204,8 +204,9 @@ p{
 }
 
 .end {
-    padding-top: 80px;
+    padding-top: 5%;
     padding-left: 10%;
+    padding-bottom: 5%;
     display: flex;
     flex-direction: column;
     background-color: rgb(7, 9, 9);
