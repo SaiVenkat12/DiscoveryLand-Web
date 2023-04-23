@@ -1,6 +1,5 @@
 body{
     margin: 0%;
-    background-color: black;
 }
 
 .main {
@@ -64,35 +63,79 @@ body{
     display: flex;
 }
 .page-title{
-    padding-top: 23%;
-    padding-left: 28%;
-    display: flex;
-    color: aliceblue;
-    font-size: 58px;
-    letter-spacing: 2px;
-    position: absolute;
-}
-
-.locations {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.locations-Img {
-    width: 33.3%;
+    padding-top: 25%;
+    padding-left: 29%;
     display: flex;
     flex-direction: column;
+    color: white;
+    font-size: 48px;
+    position: absolute;
+}
+.title32{
+    letter-spacing: 4px;
 }
 
-.location {
-    font-size: 27px;
-    height: 100px;
+
+.main-text-class{
+    margin-top: 5%;
     display: flex;
-    color: aliceblue;
-    align-items: center;
     justify-content: center;
 }
 
+.main-text{
+    font-size: 40px;
+    width: 80%;
+}
+
+.video-main{
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:50px;
+    color: aliceblue;
+    background-color:rgb(32, 33, 33);
+}
+
+.video-text{
+    display: flex;
+    gap: 8%;
+    font-size: 22px;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.video-text-Title{
+    width: -webkit-fill-available;
+    display: flex;
+    font-size: 30px;
+}
+
+.video-text-content{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+}
+#vid{
+    width: 90%;
+}
+
+
+.last{
+    padding-top: 10%;
+}
+#img-last{
+    width: -webkit-fill-available;
+    height: 450px;
+}
+.last-text{
+    padding: 10%;
+    padding-left: 43%;
+    z-index: 1;
+    font-size: 55px;
+    color: white;
+    position: absolute;
+}
 
 .end {
     padding-top: 10%;
@@ -135,65 +178,4 @@ span {
     padding-top: 30px;
     font-size: 15px;
     color: seashell;
-}
-
-@media only screen and (max-width: 750px) {
-    .title1 {
-        font-size: 28px;
-    }
-
-    .title2 {
-        font-size: 12px;
-        letter-spacing: 1px;
-    }
-    .menu {
-        gap: 12px;
-        font-size: 15px;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    #logo{
-        width: 27px;
-    }
-    .title1 {
-        font-size: 15px;
-    }
-
-    .title2 {
-        font-size: 7px;
-        letter-spacing: 0px;
-    }
-    .page-title{
-        font-size: 30px;
-    }
-
-    .menu {
-        gap: 10px;
-        font-size: 10px;
-        align-items: center;
-    }
-
-    .location{
-        font-size: 16px;
-        height: 45px;
-    }
-
-    .end-menu {
-        gap: 18px;
-    }
-
-    .end-details {
-        gap: 20px;
-    }
-
-    .end-info {
-        font-size: 12px;
-    }
-
-    .end-rights {
-        padding-top: 10px;
-        padding-left: 0px;
-        font-size: 10px;
-    }
 }

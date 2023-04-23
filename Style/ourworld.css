@@ -79,7 +79,7 @@ img {
 }
 
 .end {
-    padding-top: 5%;
+    padding-top: 8%;
     padding-left: 10%;
     padding-bottom: 5%;
     display: flex;
@@ -131,14 +131,15 @@ span {
         letter-spacing: 1px;
     }
     .menu {
-        gap: 10px;
-        font-size: 12px;
+        gap: 12px;
+        font-size: 15px;
     }
 }
 @media only screen and (max-width: 500px) {
     #logo{
         width: 27px;
     }
+
     .title1 {
         font-size: 15px;
     }
@@ -156,10 +157,6 @@ span {
 
     .locations {
         justify-content: center;
-    }
-
-    .end {
-        padding: 20px;
     }
 
     .end-menu {
